@@ -1,7 +1,7 @@
 :root {
   font: 16px / 1 sans-serif;
   font-family: 'Telex', sans-serif;
-  color: rgb(219, 255, 209);
+  color: rgb(8, 17, 5);
 }
 
 html {
@@ -10,8 +10,13 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%;
-  max-width: 50%;
+  height: 100%;
+  min-width: 50%;
   background-image: url('https://www.tabletmag.com/wp-content/files_mf/cookies_820.png');
   background-size: cover;
+}
+
+h2 {
+  background-color: rgb(241, 245, 190);
+  min-width: 100%;
 }
