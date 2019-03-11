@@ -1,9 +1,23 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import SignIn from './components/SignIn'
+import TroopForm from './components/TroopForm'
+import SuccessPage from './components/SuccessPage'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={SignIn} />
+            <Route exact path="/troop-form" component={TroopForm} />
+            <Route exact path="/success-page" component={SuccessPage} />
+          </Switch>
+        </Router>
+      </>
+    )
   }
 }
 
