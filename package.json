@@ -3,7 +3,7 @@
   "name": "sweet-tweets",
   "homepage": "https://sweet-tweets-ahseeah.netlify.com",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "predeploy": "react-scripts build",
     "deploy": "netlify deploy --prod --dir=build",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "json": "^9.0.6",
+    "jwt-decode": "^2.2.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router": "^4.3.1",
