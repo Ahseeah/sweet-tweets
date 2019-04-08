@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class SuccessPage extends Component {
   render() {
     return (
-      <figure>
-        <h2>IT'S COOKIE TIME!</h2>
-      </figure>
+      <div>
+        <img src={logo} className="sweet-tweet-logo" alt="logo" />
+      </div>
     )
   }
 }

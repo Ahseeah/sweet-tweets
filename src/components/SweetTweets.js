@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../images/sweet-logo.png'
+import logo from '../images/sweet-tweet-logo.png'
 import AuthService from './AuthService'
 import WithAuth from './WithAuth'
 import EventForm from './EventForm'
@@ -17,7 +17,7 @@ class SweetTweets extends Component {
       <>
         <div className="Sweet">
           <div className="Sweet-header">
-            <img src={logo} className="sweet-logo" alt="logo" />
+            <img src={logo} className="sweet-tweet-logo" alt="logo" />
             <h2>Welcome {this.props.user.username}</h2>
           </div>
           <p className="App-intro">
